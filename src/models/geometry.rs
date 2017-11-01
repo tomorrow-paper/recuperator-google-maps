@@ -1,6 +1,6 @@
 use super::{Viewport, Coordinates};
 
-#[derive(Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Geometry {
     pub location: Coordinates,
     pub location_type: String,

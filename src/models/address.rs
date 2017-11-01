@@ -1,6 +1,6 @@
 use super::{AddressComponent, Geometry};
 
-#[derive(Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Address {
     pub address_components: Vec<AddressComponent>,
     pub formatted_address: String,
