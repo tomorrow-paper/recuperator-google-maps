@@ -1,5 +1,6 @@
 use tomorrow_core::Result;
-use tomorrow_http::*;
+use tomorrow_http::Builder;
+use tomorrow_http::json::*;
 use tomorrow_recuperator::Recuperator;
 
 use ::{GoogleMapsRequest, GoogleMapsResponse};
